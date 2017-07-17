@@ -1,0 +1,20 @@
+# Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python:
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+# Can ignore specific files
+.DS_Store
+workspace.xml
+
+# My configurations:
+db.ini
+deploy_key_rsa
+
