@@ -37,3 +37,18 @@ def serch_file(pwd, name):
 pwd = os.path.abspath('.')  #定义pwd为当前目录绝对路径
 name = input('serch file: ')#要求输入要serch的文件名
 serch_file(pwd, name)#进行调用
+'''
+import os
+
+def serch_open(pwd, a):
+    for x in os.listdir(pwd):
+        b = os.path.join(pwd, x)
+        if os.path.splitext(b) != '':
+            if a in os.path.splitext(b)[0]:
+                print(os.path.join(b, a))
+        else:
+            serch_open(b, a)
+a = input('please write your wanna name:')
+pwd = os.path.abspath('.')
+print(serch_open(pwd, a))
+'''
