@@ -12,6 +12,9 @@ Desktop.ini
 *.egg-info
 dist
 build
+.idea/learnPython3.iml
+.idea/misc.xml
+
 # Can ignore specific files
 .DS_Store
 workspace.xml
