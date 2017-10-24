@@ -1,5 +1,5 @@
 import unittest#需引入Python自带的unitest模块
-from mydict import Dict
+from mydict1 import Dict
 class TestDict(unittest.TestCase):#编写测试类，从unitest.TestCase继承
 
     def setUp(self):
