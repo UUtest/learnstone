@@ -9,4 +9,5 @@ def name_of_email(addr):
 assert name_of_email('<Tom Paris> tom@voyager.org') == 'Tom Paris'
 assert name_of_email('tom@voyager.org') == 'tom'
 assert name_of_email('bill.gates@microsoft.com')
+assert name_of_email('bill.gates@microsoft.com')
 print('ok')
